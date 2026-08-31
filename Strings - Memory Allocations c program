@@ -1,0 +1,14 @@
+#include 
+int main()
+{
+    int i;
+ char string1[12] = "Hello World";
+ char *string2 = "Hello World";
+    printf("%sn", string1);
+    printf("%sn", string2);
+    printf("The address of string1 is %pn", &string1);
+    printf("The address of first element in string1 is %pn", &string1[0]);
+    printf("The address of string2 is %pn", &string2);
+    printf("The address of first element in string2 is %pn", &string2[0]);
+    return 0;
+}
