@@ -1,0 +1,13 @@
+#include 
+int main()
+{
+    char num1;
+    unsigned char num2;
+    num1 = -1;
+    num2 = -1;
+    printf("num1 = %dn", num1);
+    printf("num2 = %un", num2);
+    printf("num1 = %dn", num1 & 0xFF);
+    printf("num2 = %dn", num2 & 0xFF);
+    return 0;
+}
