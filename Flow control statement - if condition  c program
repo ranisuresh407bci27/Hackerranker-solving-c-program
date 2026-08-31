@@ -1,0 +1,18 @@
+#include 
+int main()
+{
+    int number;
+    printf("Enter a number: ");
+    scanf("%d", &number);
+    if (number < 5) 
+{ 
+printf("number is less than 5n"); } 
+if (number > 5)
+        printf("number is greater than 5n");
+    if (number == 5)
+    {
+        printf("number is equal to 5n");
+        printf("Done. So simple right!!n");
+    }
+    return 0;
+}
