@@ -1,0 +1,14 @@
+#include 
+int main()
+{
+    int num;
+    int *ptr;
+    num = 5;
+    ptr = 5;
+    printf("num = %dn", num);
+    printf("ptr = %dn", ptr);
+    printf("sizeof int = %un", sizeof(int));
+    printf("sizeof long = %un", sizeof(long));
+    printf("sizeof pointer = %un", sizeof(int *));
+    return 0;
+}
